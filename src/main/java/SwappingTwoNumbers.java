@@ -12,5 +12,6 @@ public class SwappingTwoNumbers {
         second_number =first_number-second_number;
         first_number = first_number-second_number;
         System.out.println("After swapping,first number"+first_number+"second number"+second_number);
+        scanner.close();
     }
 }
