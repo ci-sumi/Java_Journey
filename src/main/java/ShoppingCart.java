@@ -15,7 +15,7 @@ public class ShoppingCart {
         int quantity = scanner.nextInt();
         System.out.println("You have bought:"+quantity+""+item+"/s");
         double total = quantity * price;
-        System.out.println("Your total is:"+total);
+        System.out.println("Your total is:"+"$"+total);
         scanner.close();
 
 
