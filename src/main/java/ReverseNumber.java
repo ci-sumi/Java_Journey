@@ -10,11 +10,15 @@ public class ReverseNumber {
     }
     public static int reverseNumber(int number){
         int revese=0;
+        int sum=0;
         while(number>0){
             int reversed = number%10;
             number = number/10;
             revese = revese*10+reversed;
+            sum=sum+reversed;
 
-        }return revese;
+        }
+        System.out.println(sum);
+        return revese;
     }
 }
